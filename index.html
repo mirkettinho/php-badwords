@@ -1,0 +1,42 @@
+<?php
+  $test_var = "ciao";
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+  <title>PHP Badwords</title>
+</head>
+
+<body>
+
+  <h2>Inserisci il testo e la parola da censurare</h2>
+  <form action="back.php" method="get">
+
+    <div>
+      <label for="testo">Testo:</label>
+      <textarea name="testo" id="testo" cols="50" rows="5"></textarea>
+    </div>
+
+    <div>
+      <label for="parola">Inserisci la parola da censurare!</label>
+      <input type="text" name="parola" id="parola">
+    </div>
+
+    <div>
+      <button type="submit">Invia</button>
+    </div>
+
+  </form>
+
+</body>
+
+</html>
